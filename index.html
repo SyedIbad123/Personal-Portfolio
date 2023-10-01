@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JavaScript/app.js" defer></script>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+</style>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<body id="main-content">
+
+    <header id="nav">
+        <nav  class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+
+                <a class="navbar-brand text-light ms-5" href="#">I <span class="name">B </span><span
+                        class="name1">A</span><span class="name2">D</span></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapsed d-flex flex-row " id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-4 mb-2 mb-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#Home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#About">About</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#Service">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#Resume">Resume</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#Portfolio">Portfolio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-light nav" href="#Contact">Contact</a>
+                        </li>
+
+                    </ul>
+
+                    <form class="d-flex me-5">
+                        <a class="btn btn1 btn-outline-warning" href="#Contact">Contact Me</a>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="loader-container"  class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+
+
+
+        <div id="Home" class="Home-section">
+            <div class="d-flex flex-column personal">
+                <p class="para para1">Hi There ! I'm</p>
+                <h1 class="para para2">Syed Ibad Ali</h1>
+                <p class="para para3">A creative Web Developer and JavaScript Developer</p>
+                <button class="btn btn2 btn-outline-warning ">
+                    HIRE ME </button>
+            </div>
+            <div class="img-div">
+                <img class="image-fluid image-container" src="./images/profile_pic.png" alt="">
+            </div>
+
+            <div class="box1">
+            </div>
+
+            <div class="up-arrow">
+                <img id="#nav" src="/images/up-arrow.png" alt="">
+            </div>
+
+
+        </div>
+
+        <div id="About" class="About-section">
+
+            <p class="p-01">01</p>
+            <div class="line2"></div>
+
+            <div class="section">
+                <div class="img2-div">
+
+                    <img class="image-fluid img2" src="./images/362234761_3416357538619296_2769842356826462336_n.jpg"
+                        alt="">
+
+                </div>
+
+                <div class="About-me">
+                    <p class="discover">Discover</p>
+                    <p class="About">About Me</p>
+                    <div class="line3"></div>
+                    <p class="info">My name is Syed Ibad Ali. As a software engineering student at NED University, I'm
+                        passionate about creating innovative solutions to complex problems. My skills in coding, design,
+                        and
+                        project management allow me to learning in a broad manner. Whether I'm working on a solo project
+                        or
+                        collaborating with a team, I bring a strong work ethic, attention to detail, and a can-do
+                        attitude
+                        to every task.</p>
+
+                    <div class="personal-info d-flex justify-content-center">
+                        <p class="ms-4">Name: Syed Ibad Ali</p>
+                        <p class="ms-4">Age: 19</p>
+                        <p class="ms-4">Phone: +92 3368251372</p>
+                        <p class="ms-4">Address: Karachi,Pakistan</p>
+                        <p class="ms-4">Experience: 1 year</p>
+                        <p class="ms-4">Freelance: Available</p>
+                    </div>
+
+                    <button id="downloadPdfButton" class="btn btn3 btn-outline-warning mt-5 p-3">
+                        DOWNLOAD MY CV
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="Service" class="service-section">
+            <div class="service">
+                <p class="What">What I Do</p>
+                <p class="My-service">My Services</p>
+                <div></div>
+            </div>
+
+            <p class="p-02">02</p>
+            <div class="line4"></div>
+
+            <div class="services">
+
+                <div>
+                    <img src="./images/world-wide-web (1).png" alt="">
+                    <h3>Website Development</h3>
+                    <p>I have experience developing responsive and user-friendly web applications using HTML, CSS, and JavaScript to enhance the user experience and ensure cross-browser compatibility.</p>
+                </div>
+
+                <div>
+                    <img src="/images/edit-tools.png" alt="">
+                    <h3>Creative Design</h3>
+                    <p>As a creative design service provider, my passion lies in transforming ideas into visual masterpieces. With each project, I embark on a journey of innovation and artistic exploration, aiming to breathe life into concepts.</p>
+                </div>
+
+                <div>
+                    <img src="/images/layers.png" alt="">
+                    <h3>Software Development</h3>
+                    <p>In the realm of software development, my journey is one of constant evolution and problem-solving. As a software developer, I see myself as both an architect and an artist, crafting intricate digital solutions.</p>
+                </div>
+
+                <div>
+                    <img src="/images/graphic-design.png" alt="">
+                    <h3>Graphic Design</h3>
+                    <p> As a graphic designer,I am a visual storyteller and problem solver. My canvas is the digital screen or piece of paper, and my colors, shapes, and typography are my tools to communicate ideas and messages.</p>
+                </div>
+
+                <div>
+                    <img src="/images/terminal.png" alt="">
+                    <h3>Clean Code</h3>
+                    <p>
+                        Clean code is the hallmark of a skilled and conscientious software developer. It goes beyond just making code that works; it's about creating code that is easy to read, understand, and maintain. </p>
+                </div>
+
+                <div>
+                    <img src="/images/ui.png" alt="">
+                    <h3>Fast Support</h3>
+                    <p>Fast support is a critical aspect of providing excellent customer service. It means responding to customer inquiries, issues, or requests promptly and efficiently. </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div  class="skill-section">
+            <div class="skill">
+                <p class="Awesome">My Awesome Skills</p>
+                <p class="My-skills">My Skills</p>
+                <div></div>
+            </div>
+
+            <p class="p-03">03</p>
+            <div class="line5"></div>
+
+
+            <div class="languages lang">
+
+                <div data-aos="fade-right" data-aos-duration="500" class="div1">
+                    <img src="./images/html-5.png" alt="">
+                    <p>HTML</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="1000" class="div2">
+                    <img src="./images/css-3.png" alt="">
+
+                    <p>CSS</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="2000" class="div3">
+                    <img src="./images/js.png" alt="">
+                    <p>JavaScript</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="3000" class="div4">
+                    <img src="./images/react.png" alt="">
+                    <p>React</p>
+
+                </div>
+
+                <div data-aos="fade-left" data-aos-duration="3000" class="div10">
+                    <img src="./images/bootstrap.png" alt="">
+                    <p>Bootstrap</p>
+
+                </div>
+
+
+                <div data-aos="fade-left" data-aos-duration="2000" class="div5">
+                    <img src="./images/c-.png" alt="">
+                    <p>C++</p>
+
+                </div>
+
+
+                <div data-aos="fade-left" data-aos-duration="1000" class="div6">
+                    <img src="./images/python.png" alt="">
+                    <p>Py<span>thon</span></p>
+
+                </div>
+
+
+                <div data-aos="fade-left" data-aos-duration="500" class="div7">
+                    <img src="./images/mysql.png" alt="">
+                    <p>MySQL</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="500" class="div8">
+                    <img src="./images/php.png" alt="">
+                    <p>PHP</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="1000" class="div9">
+                    <img src="./images/figma.png" alt="">
+                    <p>
+                        <span class="span1">F</span>
+                        <span class="span2">i</span>
+                        <span class="span3">g</span>
+                        <span class="span4">m</span>
+                        <span class="span5">a</span>
+                    </p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="2000" class="div11">
+                    <img src="./images/git (1).png" alt="">
+                    <p>Git</p>
+
+                </div>
+
+
+                <div data-aos="fade-right" data-aos-duration="3000" class="div12">
+                    <img src="./images/linux.png" alt="">
+                    <p>Linux</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="Resume"  class="Resume-section">
+            <div class="Resume">
+                <p class="Education">Experience & Education</p>
+                <p class="My-resume">My Resume
+                </p>
+                <div></div>
+            </div>
+
+            <p class="p-03">04</p>
+            <div class="line6"></div>
+
+
+            <div class="Education-section">
+
+                <div class="line7">
+                </div>
+                <span class="line7-1"></span>
+                <span class="line7-1-1"></span>
+
+                <span class="line7-2"></span>
+                <span class="line7-2-1"></span>
+
+                <span class="line7-3"></span>
+                <span class="line7-3-1"></span>
+
+                <div data-aos="fade-right" data-aos-duration="1000" class="NED">
+                    <h4>NED University</h4>
+                    <p>I am currently pursuing a Bachelor's degree in Software Engineering, which has provided me with a strong foundation in various aspects of software development.</p>
+                </div>
+
+                <p data-aos="fade-right" data-aos-duration="1000" class="NED-Duration"> 2022 - 2026</p>
+
+
+                <div data-aos="fade-left" data-aos-duration="1000" class="Web">
+                    <h4>Web Development</h4>
+                    <p>I have experience developing responsive and user-friendly web applications using HTML, CSS, and JavaScript to enhance the user experience and ensure cross-browser compatibility.</p>
+
+                </div>
+                <p data-aos="fade-left" data-aos-duration="1000" class="Web-Duration">2022 - 2023</p>
+
+
+                <div data-aos="fade-right" data-aos-duration="1000" class="Designer">
+                    <h4>Web Designer</h4>
+                    <p>As a web designer, I've crafted visually appealing and user-centric web layouts using HTML, CSS, and JavaScript, focusing on enhancing the overall user experience.</p>
+
+                </div>
+                <p data-aos="fade-right" data-aos-duration="1000" class="Designer-Duration"> 2022 - 2023</p>
+
+
+
+            </div>
+
+        </div>
+
+
+        <div id="Portfolio"  class="portfolio-section">
+            <div class="portfolio">
+                <p class="Recent">Recent Works</p>
+                <p class="My-portfolio">My Portfolio</p>
+                <div></div>
+            </div>
+
+            <p class="p-05">05</p>
+            <div class="line8"></div>
+
+
+            <div class="Categories">
+                <p class="All">All</p>
+                <p class="Front">Front-End</p>
+                <p class="back">Back-End</p>
+            </div>
+
+            <div class="projects">
+
+                <div class="card bg-light text-white frontend">
+                    <img src="/images/project1.PNG" class="card-img" alt="...">
+
+                    <div class="card-img-overlay ">
+                        <h5 class="card-title">E-Commrce Website</h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/Project-no-01" target="_blank"> Check it out</a>
+                        <p class="card-text">E-Commerce Responsive Website</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-light text-white frontend   ">
+                    <img src="/images/project2.PNG" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Services Website</h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/BOOTSTRAP_WEBSITE" target="_blank"> Check it out</a>
+                        <p class="card-text">Services Responsive Website</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-light text-white frontend">
+                    <img src="/images/project3.PNG" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Netflix landing page Clone</h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/Netflix-landing-page" target="_blank"> Check it out</a>
+                        <p class="card-text">Netflix responsive landing page </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-light text-white frontend">
+                    <img src="/images/project4.PNG" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Services Landing Page</h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/TechnoHacks-internship" target="_blank"> Check it out</a>
+                        <p class="card-text">Service landing page</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-light text-white frontend">
+                    <img src="/images/project5.PNG" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Product Landing Page</h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/CodSoft-Task-1" target="_blank"> Check it out</a>
+                        <p class="card-text">Product Landing page</p>
+
+                    </div>
+
+                </div>
+
+                <div class="card bg-light text-white backend">
+                    <img src="/images/project6.PNG" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title">Virtual Assistant </h5>
+                        <a class="card-link" href="https://github.com/SyedIbad123/Jarvis-Python-Project" target="_blank"> Check it out</a>
+                        <p class="card-text">Virtual Assistant (Vision)</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="Contact"  class="Contact-section">
+
+            <div class="Contact">
+                <p class="Touch">Get In Touch</p>
+                <p class="contact-me">Contact Me</p>
+                <div></div>
+            </div>
+
+            <p class="p-06">06</p>
+            <div class="line9"></div>
+
+            <div class="contact">
+                <div class="contact-div1">
+
+                    <div>
+                        <h6>LOCATION</h6>
+                        <p>Karachi , Pakistan</p>
+                        <img class="location" src="/images/location.png" alt="">
+                    </div>
+
+                    <div>
+                        <h6>EMAIL</h6>
+                        <p>ibad1657@gmail.com</p>
+                        <img src="/images/email.png" alt="">
+                    </div>
+
+                    <div>
+                        <h6>PHONE</h6>
+                        <p>+92 3368251372</p>
+                        <img src="/images/phone-call.png" alt="">
+                    </div>
+                </div>
+
+                <div class="contact-div2">
+                    <input type="text" placeholder="Name">
+                    <br>
+                    <input type="text" placeholder="Email">
+                    <br>
+                    <input type="text" placeholder="Subject">
+                    <br>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"
+                        aria-expanded="false"></textarea>
+                    <br>
+
+                    <button class="btn btn4 btn-outline-warning mt-5 p-3">SEND MESSAGE</button>
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+        </div>
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="name-section">
+            <span class="I">I</span> 
+            <span class="name3">B</span>
+            <span class="name4">A</span>
+            <span class="name5">D</span>
+        </div>
+
+        <div class="links-section">
+            <div>
+
+                <a href="https://www.facebook.com/syedzaday.syedibad" target="_blank"><img src="/images/facebook.png" alt=""></a>
+
+            </div>
+
+            <div>
+                
+                <a href="https://www.instagram.com/_syed.ibad3727/" target="_blank"><img src="/images/instagram.png" alt=""></a>
+            
+            </div>
+
+            <div>
+                
+                <a href="https://www.linkedin.com/in/syed-ibad-developer/" target="_blank"><img src="/images/linkedin.png" alt=""></a>   
+            
+            </div>
+
+            <div>
+                
+                <a href="https://github.com/SyedIbad123" target="_blank"><img src="/images/github.png" alt=""></a>
+            
+            </div>
+
+            <div>
+                
+                <img src="/images/world.png" alt="">
+            
+            </div>
+
+        </div>
+
+        <div class="reserved">
+            <p>All rights reserved &copy; 2023 <span>IBAD</span></p>
+        </div>
+
+
+    </footer>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
